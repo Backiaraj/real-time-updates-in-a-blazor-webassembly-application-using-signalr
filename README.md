@@ -1,24 +1,24 @@
 # Real-time Updates in Blazor WebAssembly App using SignalR
 
-A full-stack Blazor WebAssembly application demonstrating real-time appointment scheduling with instant synchronization across multiple clients using [SignalR](https://learn.microsoft.com/aspnet/core/signalr) and [Syncfusion<sup style="font-size:70%">&reg;</sup> Blazor Scheduler](https://www.syncfusion.com/blazor-components/blazor-scheduler) components.
+A full-stack Blazor WebAssembly application demonstrating real-time appointment scheduling with instant synchronization across multiple clients using [SignalR](https://learn.microsoft.com/aspnet/core/signalr) and [Blazor Scheduler](https://www.syncfusion.com/blazor-components/blazor-scheduler) components.
 
 ![Blazor Scheduler with SignalR working](blazor-scheduler.gif)
 
 ## Overview
 
-This sample application showcases how to build a collaborative scheduling experience in Blazor WebAssembly with real-time updates. When one user creates, edits, or deletes an appointment, all connected clients instantly receive and display the changes through a SignalR hub connection. The application uses the Syncfusion Scheduler component to provide a rich, interactive calendar interface.
+This sample application showcases how to build a collaborative scheduling experience in Blazor WebAssembly with real-time updates. When one user creates, edits, or deletes an appointment, all connected clients instantly receive and display the changes through a SignalR hub connection. The application uses the Blazor Scheduler component to provide a rich, interactive calendar interface.
 
 **Key capabilities:**
 
 - Multi-user real-time synchronization via SignalR
 - CRUD operations on appointments (create, read, update, delete)
-- Syncfusion Scheduler component with built-in drag-and-drop and inline editing
+- Blazor Scheduler component with built-in drag-and-drop and inline editing
 - Separated architecture with Client (WebAssembly), Server (ASP.NET Core), and Shared projects
 
 ## Features
 
 - **Real-time Synchronization**: All connected clients receive instant updates when appointments are changed
-- **Interactive Scheduler**: Built on Syncfusion's Scheduler component with week view, inline editing, and drag-and-drop support
+- **Interactive Scheduler**: Built on Blazor Scheduler component with week view, inline editing, and drag-and-drop support
 - **SignalR Integration**: Bidirectional communication between clients and server
 - **Clean Architecture**: Organized into Client, Server, and Shared projects for maintainability
 - **Activity Tracking**: Display notifications showing which user made what changes
@@ -63,5 +63,5 @@ cd real-time-updates-in-a-blazor-webassembly-application-using-signalr
 ## References
 
 - [SignalR documentation](https://learn.microsoft.com/aspnet/core/signalr)
-- [Syncfusion Blazor Scheduler documentation](https://www.syncfusion.com/blazor-components/blazor-scheduler)
+- [Blazor Scheduler documentation](https://blazor.syncfusion.com/documentation/scheduler/getting-started-webapp)
 - [Real-time ASP.NET Core applications with SignalR](https://learn.microsoft.com/aspnet/core/signalr/introduction)
